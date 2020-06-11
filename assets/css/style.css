@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 body {
     color: #db531d;
@@ -8,7 +9,7 @@ body {
   }
 header {
     padding: 50px 35px;
-    background-color: #b2f8db;
+    background-color: #7df864;
   }
 header h1 a {
     font-weight: bold;
@@ -34,10 +35,49 @@ header nav ul li a {
     font-size: 22px;
   }
   footer {
-    background: #b2f8db;
+    background: #7df864;
     width: 100%;
     padding: 40px 35px;
   }
   section {
     padding: 60px;
+  }
+  .hero {
+    background-image: url("../images/stabilis-wallpaper-1920x1080.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .hero-form {
+    background-color: #7df864;
+    padding: 20px;
+    width: 420px;
+    color: #db531d;
+    border: solid 3px #db531d;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+  }
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+  .form-input {
+    border: 1px solid #db531d;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #db531d;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .hero-form label {
+    margin: 0 5px;
+  }
+  .me {
+    background-image: url("../images/Image1.jpg");
   }
