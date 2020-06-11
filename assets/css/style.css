@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    color: #db531d;
+    font-family: Georgia, serif;
+  }
+header {
+    padding: 50px 35px;
+    background-color: #b2f8db;
+  }
+header h1 a {
+    font-weight: bold;
+    font-size: 36px;
+    color: #db531d;
+    margin: 0;
+    display: inline;
+  }
+header a {
+    text-decoration: none;
+    color: #db531d;
+  }
+header nav {
+    float: right;
+    margin: 7px 0;
+  }
+header nav ul li {
+    display: inline;
+  }
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  footer {
+    background: #b2f8db;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  section {
+    padding: 60px;
+  }
