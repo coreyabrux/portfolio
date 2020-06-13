@@ -185,3 +185,20 @@ header nav ul li a {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.60);
     z-index: 1000;
   }
+  .aboutme {
+    background-color: #61a3b8;
+    padding: 1px;
+    width: 420px;
+    color: #db331d;
+    border: solid 3px #db331d;
+    position: absolute;
+    width: 25%;
+    height: 20%;
+    top: 120px;
+    left: 200px;
+    z-index: 1000;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    padding: 7px 15px;
+    font-size: 16px;  
+  }
